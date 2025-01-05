@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import "./Page.css";
+import "./page.css";
 import { TABLE_HEADER } from "../../constants";
 import Pagination from "../pagination/Page";
 
