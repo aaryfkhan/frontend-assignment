@@ -1,0 +1,32 @@
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+    padding-right: 1.5rem;
+}
+.controller {
+    display: flex;
+    gap: 10px;
+}
+.meta-data {
+    color: #656565;
+}
+button {
+    background-color: #ADD8E6;
+    padding: 0.3rem 0.7rem;
+    border-color: #F0F8FF;
+    color: #000000;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 2px 1px 1px #7ad1ed;
+}
+
+button:disabled {
+    background-color: #d8e1e4;
+    box-shadow: 2px 1px 1px #b7b8b8;
+    color: #8e8e8e;
+}
+
